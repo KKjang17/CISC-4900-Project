@@ -1,0 +1,69 @@
+/* ***** Header and Footer ***** */
+
+header {
+    background-color: #263238;
+    padding-left: 750px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ***** Links ***** */
+
+a:link, a:visited {
+    color: #03A9F4;
+}
+
+a:hover {
+    background-color: #FF3D00;
+    color: white;
+}
+
+/* ***** Title Bar ***** */
+
+.titleBar {
+    background-image: url(header-background.jpg);
+    background-size: 75px, 60px;
+    background-repeat: repeat-x;
+    height: 56px;
+    
+}
+
+.titleText {
+    padding: 10px 0px 0px 90px;
+    font-family: fantasy, sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+}
+
+strong {
+    font-weight: bold;
+    color: #FF3D00;
+}
+
+nav {
+    font-family: fantasy, sans-serif;
+    background-color: #607D8B;
+}
+
+ul {
+    list-style-type: none;
+    padding: 3px 0px 3px 0px;
+}
+
+li {
+    display: inline;
+    padding: 5px 3px 5px 3px;
+}
+
+/* ***** Profile Picture ***** */
+
+.profilePicture {
+    margin: auto;
+    display: block;
+}
+
+.profilePic {
+    width: 150px;
+    margin: auto;
+ 
+}
