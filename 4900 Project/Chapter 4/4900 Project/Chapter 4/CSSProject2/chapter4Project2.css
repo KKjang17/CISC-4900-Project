@@ -6,6 +6,24 @@ header {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+footer {
+    background-color: #263238;
+    padding-left: 100px;
+    height: 60px;
+    margin-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer ul {
+    padding-top: 5px;
+}
+
+footer p {
+    color: white;
+    font-size: small;
+    font-style: italic;
+}
+
 /* ***** Links ***** */
 
 a:link, a:visited {
@@ -15,6 +33,14 @@ a:link, a:visited {
 a:hover {
     background-color: #FF3D00;
     color: white;
+}
+
+.information a:link, a:visited {
+    font-style: normal;
+}
+
+i {
+    color: black;
 }
 
 /* ***** Title Bar ***** */
@@ -52,6 +78,7 @@ ul {
 }
 
 li {
+    font-size: small;
     display: inline;
     padding: 5px 3px 5px 3px;
 }
@@ -90,7 +117,7 @@ li {
     border-color: #C5CAE9;
     border-style: solid;
     border-width: 1px;
-    margin: 0px 100px 0px 100px;
+    margin: 15px 100px 0px 100px;
 }
 
 /* ***** Pattern Titles ***** */
@@ -118,6 +145,8 @@ li {
     font-style: italic;
     font-family: fantasy, sans-serif;
     color: rgb(122, 121, 121);
+    width: 100%;
+    height: 100%;
 }
 
 mark {
@@ -136,11 +165,22 @@ mark {
     background-size: 45px, 60px;
     background-color: #607D8B;
     height: 30px;
-    margin-bottom: 20px;
 }
 
 button {
-    margin: 3px 0px 0px 10px;
+    margin: 5px 0px 0px 10px;
     background-color:  #FF3D00;
+    color: white;
+    font-weight: bold;
 }
 
+/* ***** Graph ***** */
+
+.graph {
+    height: 400px
+}
+
+.graph img {
+    width: 100%;
+    height: 100%;
+}
