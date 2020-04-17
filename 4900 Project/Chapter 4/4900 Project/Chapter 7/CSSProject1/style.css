@@ -11,7 +11,7 @@ header img {
 
 header figcaption {
     text-align: center;
-    font-size: x-large;
+    font-size: xx-large;
     color: white;
     position: absolute;
     top: 40%;
@@ -109,53 +109,53 @@ hr {
 .pc {
     position: absolute;
     left: 690px;
-    top: 980px;
+    top: 983px;
 }
 
 .pd {
     position: absolute;
-    left: 980px;
-    top: 780px;
+    left: 985px;
+    top: 783px;
 }
 
 .pe {
     position: absolute;
     left: 100px;
-    top: 1180px;
+    top: 1183px;
 }
 
 .pf {
     position: absolute;
-    left: 390px;
-    top: 1180px;
+    left: 395px;
+    top: 1183px;
 }
 
 .pg {
     position: absolute;
     left: 690px;
-    top: 1180px;
+    top: 1183px;
 }
 
 .pj {
     position: absolute;
-    left: 390px;
-    top: 1380px;
+    left: 395px;
+    top: 1383px;
 }
 
 .ph {
     position: absolute;
-    left: 990px;
-    top: 1180px;
+    left: 985px;
+    top: 1183px;
 }
 
 .pi {
     position: absolute;
     left: 100px;
-    top: 1580px;
+    top: 1583px;
 }
 
 .pk {
     position: absolute;
-    left: 990px;
-    top: 1580px;
+    left: 985px;
+    top: 1583px;
 }
