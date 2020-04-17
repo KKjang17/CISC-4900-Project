@@ -35,7 +35,7 @@ hr {
 }
 
 .latestAdditions {
-   margin: 20px 100px 0px 100px;
+   margin: 20px 100px 20px 100px;
    width: 1170px;
    height: 190px;
 }
@@ -81,4 +81,81 @@ hr {
 .small {
     width: 285px;
     height: 190px;
+}
+
+.medium {
+    width: 285px;
+    height: 390px;
+}
+
+.large {
+    width: 580px;
+    height: 390px;
+}
+
+/* ***** Gallery ***** */
+
+.gallery {
+    margin: 70px 100px 20px 100px;
+    width: 1070px;
+    height: 990px;
+}
+
+.pb {
+    position: absolute;
+    left: 690px;
+}
+
+.pc {
+    position: absolute;
+    left: 690px;
+    top: 980px;
+}
+
+.pd {
+    position: absolute;
+    left: 980px;
+    top: 780px;
+}
+
+.pe {
+    position: absolute;
+    left: 100px;
+    top: 1180px;
+}
+
+.pf {
+    position: absolute;
+    left: 390px;
+    top: 1180px;
+}
+
+.pg {
+    position: absolute;
+    left: 690px;
+    top: 1180px;
+}
+
+.pj {
+    position: absolute;
+    left: 390px;
+    top: 1380px;
+}
+
+.ph {
+    position: absolute;
+    left: 990px;
+    top: 1180px;
+}
+
+.pi {
+    position: absolute;
+    left: 100px;
+    top: 1580px;
+}
+
+.pk {
+    position: absolute;
+    left: 990px;
+    top: 1580px;
 }
