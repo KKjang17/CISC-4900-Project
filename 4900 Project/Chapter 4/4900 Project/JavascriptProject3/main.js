@@ -18,13 +18,14 @@ window.addEventListener("load", function() {
     }
 });
 
+
+//Form validation
 document.addEventListener('submit', 
     function(e) {
         let emptyCheck = document.querySelectorAll(".required");
         let atLeastOneEmpty = false;
         
         for (let i = 0; i < emptyCheck.length; i++) {
-            console.log(emptyCheck[i].value)
             if (emptyCheck[i].value == "") {
                 atLeastOneEmpty = true;
                 emptyCheck[i].style.backgroundColor = "rgb(248, 221, 221)";
